@@ -1,7 +1,11 @@
 # trishuli-config
 Implementation Configuration for District Trishuli Hospital Nuwakot
 
-#### [Wiki](docs/Wiki.md#wiki)
+#### Wiki
+- [Installation Instructions](https://github.com/Possiblehealth/trishuli-config/blob/master/docs/Installation%20Instructions.md)
+- [DHIS2 integration](https://github.com/Possiblehealth/trishuli-config/blob/master/docs/DHIS2_Integration.md)
+- [Integration with Care Stream](https://github.com/Possiblehealth/trishuli-config/blob/master/docs/Integration_with_Care_Stream.md)
+- [Trishuli Deployment Details](https://github.com/Possiblehealth/trishuli-config/blob/master/docs/Trishuli_Deployment_Details.md)
 
 
 ## Default Bahmni configuration and data. 
@@ -78,8 +82,8 @@ https://ci-bahmni.thoughtworks.com/go/files/Bahmni_MRS_Master/{Build_Number}/Bui
   "hideFields": ["Height", "Weight", "BMI", "BMI_Status"],  //the fields on screen which should NOT be shown
   "registrationCardPrintLayout": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/print.html",
   "localNameSearch": true,                       // registration search displays parameter for search by local name
-  "localNameLabel": "मरीज़ का नाम",                // label to be diplyed for local name search input
-  "localNamePlaceholder": "मरीज़ का नाम",          // placeholder to be diplyed for local name search input
+  "localNameLabel": "बिरामीको नाम",                // label to be diplyed for local name search input
+  "localNamePlaceholder": "बिरामीको नाम",          // placeholder to be diplyed for local name search input
   "localNameAttributes": ["givenNameLocal", "familyNameLocal"]  //patient attributes to be search against for local name search
 }
 
